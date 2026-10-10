@@ -14,15 +14,15 @@
 </head>
 <body>
 <h1>Política de Privacidade — Itinerário</h1>
-<p class="data">Última atualização: 28 de setembro de 2026</p>
+<p class="data">Última atualização: 9 de outubro de 2026</p>
 
 <p>O <strong>Itinerário</strong> é um app para planejar roteiros de viagem. Ele foi feito para funcionar sem conta e sem servidor próprio: suas viagens ficam no seu aparelho.</p>
 
 <h2>1. Dados que ficam só no seu aparelho</h2>
-<p>Viagens, locais, horários, observações, o progresso do roteiro e suas preferências (como o tema) são gravados em um banco de dados local no celular. Não enviamos esses dados a nenhum servidor nosso — nós não temos servidor. Ao desinstalar o app, esses dados são apagados.</p>
+<p>Viagens, locais, horários, observações, o progresso do roteiro, o diário (fotos e lembranças) e suas preferências (como o tema) são gravados no próprio celular, numa área privada do app. Não enviamos esses dados a nenhum servidor nosso — nós não temos servidor. Ao desinstalar o app, esses dados são apagados.</p>
 
 <h2>2. Localização</h2>
-<p>O app pede permissão de localização <strong>apenas enquanto está em uso</strong>, e só para duas coisas: cadastrar o lugar onde você está como um local do roteiro e mostrar sua posição em relação ao próximo ponto. A localização não é gravada em histórico nem enviada para nós. Você pode negar a permissão e continuar usando o app normalmente, cadastrando os locais pela busca.</p>
+<p>O app pede permissão de localização <strong>apenas enquanto está em uso</strong>, e só para: cadastrar o lugar onde você está como um local do roteiro, mostrar sua posição em relação ao próximo ponto e, na versão Pro, sugerir lugares para comer perto de você (veja o item 4). A localização não é gravada em histórico nem enviada para nós. Você pode negar a permissão e continuar usando o app normalmente, cadastrando os locais pela busca.</p>
 
 <h2>3. Busca de lugares (serviços de terceiros)</h2>
 <p>Quando você toca em “Buscar” para encontrar um lugar, o texto digitado é enviado a serviços públicos de mapas para obter as coordenadas:</p>
@@ -37,29 +37,38 @@
 <p>Para calcular a distância e o tempo pelas ruas, as coordenadas dos locais de cada dia (na ordem de visita, incluindo o ponto de partida) são enviadas ao <a href="https://routing.openstreetmap.de/">serviço de rotas do OpenStreetMap</a>, mantido pela FOSSGIS. O resultado fica guardado no aparelho para não repetir a consulta. Nenhum outro dado acompanha essa requisição.</p>
 <p>A visão “Mapa real” é exibida pelo Google Maps SDK. Ao carregar o mapa, o Google recebe os dados técnicos necessários para exibi-lo (como o endereço IP e a região visualizada), conforme a <a href="https://policies.google.com/privacy">Política de Privacidade do Google</a>.</p>
 
+<p><strong>Onde comer (Pro).</strong> Para sugerir cafés, restaurantes e lanchonetes, o app envia à <a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API do OpenStreetMap</a> as coordenadas de onde você estará (um local do roteiro, um trecho da estrada ou, no acompanhamento do dia, a posição atual do aparelho — esta só se a permissão de localização já tiver sido dada). O resultado fica guardado no aparelho por até 30 dias.</p>
+<p><strong>Previsão do tempo (Pro).</strong> Para mostrar o tempo de cada dia da viagem, o app envia ao <a href="https://open-meteo.com/">Open-Meteo</a> uma coordenada aproximada (arredondada a cerca de 1 km) do centro dos locais de cada dia. Nunca é enviada a posição do aparelho. A previsão fica guardada no aparelho por 3 horas.</p>
+<p>Como em qualquer acesso à internet, esses serviços recebem o endereço IP do aparelho junto com as coordenadas, conforme as políticas de privacidade de cada um. Nenhum outro dado acompanha essas requisições.</p>
+
 <h2>5. Abrir rotas em outros apps</h2>
 <p>Os botões “Como chegar” e “Abrir rota do dia” abrem o Google Maps (ou outro app de mapas) com as coordenadas dos locais. A partir daí vale a política de privacidade do app aberto.</p>
 
-<h2>6. Compras</h2>
+<h2>6. Fotos, câmera e área de transferência</h2>
+<p>No diário (Pro), você pode tirar uma foto com a câmera ou escolher uma da galeria. A galeria usa o seletor de fotos do Android: o app recebe só a foto que você escolher, nunca acesso às suas outras fotos. A foto é copiada para a área privada do app e não sai do aparelho, a não ser que você mesmo compartilhe o card da viagem. A câmera só é usada quando você toca para tirar a foto.</p>
+<p>Ao colar uma lista de lugares ou um roteiro recebido, o app lê a área de transferência apenas quando você toca em “Colar”.</p>
+<p>Ao compartilhar um roteiro ou o card da viagem, o conteúdo vai pelo compartilhamento do Android para o app e as pessoas que você escolher. O app não envia nada por conta própria.</p>
+
+<h2>7. Compras</h2>
 <p>A versão Pro é comprada pelo Google Play. O pagamento é processado inteiramente pelo Google; nós não recebemos nem armazenamos dados de cartão ou pagamento. O app apenas consulta o Google Play para saber se a compra foi feita.</p>
 
-<h2>7. Notificações</h2>
-<p>O aviso de início do roteiro é uma notificação local, agendada no próprio aparelho. Não usamos notificações por servidor (push).</p>
+<h2>8. Notificações</h2>
+<p>Os avisos de início do roteiro e de hora de sair são notificações locais, agendadas no próprio aparelho. Não usamos notificações por servidor (push).</p>
 
-<h2>8. O que não fazemos</h2>
+<h2>9. O que não fazemos</h2>
 <ul>
   <li>Não exigimos cadastro, login ou e-mail.</li>
   <li>Não usamos ferramentas de análise, rastreamento ou publicidade.</li>
   <li>Não vendemos nem compartilhamos dados com terceiros além do descrito acima.</li>
 </ul>
 
-<h2>9. Crianças</h2>
+<h2>10. Crianças</h2>
 <p>O app não é direcionado a menores de 13 anos e não coleta intencionalmente dados de crianças.</p>
 
-<h2>10. Seus direitos (LGPD)</h2>
+<h2>11. Seus direitos (LGPD)</h2>
 <p>Como seus dados ficam no seu aparelho, você tem controle total sobre eles: pode editar ou excluir viagens no próprio app, revogar a permissão de localização nas configurações do Android ou desinstalar o app para apagar tudo.</p>
 
-<h2>11. Contato</h2>
+<h2>12. Contato</h2>
 <p>Dúvidas sobre esta política: <a href="mailto:rod.martinslima@gmail.com">rod.martinslima@gmail.com</a>.</p>
 
 <p>Esta política pode ser atualizada; a data no topo indica a versão em vigor.</p>
